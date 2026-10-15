@@ -2,20 +2,29 @@ package com.pluralsight;
 
 public class VariableApp {
     public static void main(String[] args) {
-        // Question 1:Write code to print an answer to each of the following questions:
-        //1. Declare a variable to store your favorite color
-        //2. Declare a variable to store the year you started this class
-        //3. Declare a variable to store your middle initial
-        //4. Declare a variable to store whether you have pets (yes/no)
-        //5. Declare a variable with a nice message or saying
-        // then code solution
-        String favoriteColor = "Black";
+        // Exercise 2
+        // Step 1
+        String favoriteColor = "black";
         int classStartYear = 2026;
-        ch MiddleInitial = 'O';
+        char middleInitial = 'O';
         boolean hasPets = false;
         String niceMessage = "Have a good day!";
-        // then use System.out.println() to display results
-        // ex: System.out.println("The answer is " + answer);
-        // REPEAT FOR NEXT EXERCISE
+
+        System.out.println("My favorite color is " + favoriteColor);
+        System.out.println("I started YUU in " + classStartYear);
+        System.out.println("My middle initial is " + middleInitial);
+        System.out.println("The answer is " + hasPets);
+        System.out.println(niceMessage);
+
+        // Step 2
+        int daysInWeek = 7;
+        double coffeePrice = 4.99;
+        char favoriteLetter = 'E';
+        boolean isRaining = true;
+
+        System.out.println("There are " + daysInWeek + " days in a week");
+        System.out.println("This coffee costs $" + coffeePrice + " dollars");
+        System.out.println("My favorite letter is " + favoriteLetter);
+        System.out.println("The answer is " + isRaining);
     }
 }
